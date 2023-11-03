@@ -3,6 +3,7 @@
 
 #define RX_PIN 10
 #define TX_PIN 11
+#define BUSY_PIN 13
 
 DFRobotDFPlayerMini mp3;
 SoftwareSerial *softwareSerialMP3;
@@ -17,10 +18,14 @@ void setup(void)
 
 void loop(void)
 {
+    int b = digitalRead(BUSY_PIN);
+    Serial.print("Busy pin = ");
+    Serial.println(b);
 }
 
 void initMP3(void)
 {
+    pinMode(BUSY_PIN,INPUT);
     softwareSerialMP3 = new SoftwareSerial(RX_PIN, TX_PIN);
 
     softwareSerialMP3->begin(9600);
