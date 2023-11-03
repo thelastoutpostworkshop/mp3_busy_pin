@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM3",
+    "sketch": "mp3_busy_pin.ino",
+    "output": "build"
+}
