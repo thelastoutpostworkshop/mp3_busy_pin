@@ -1,7 +1,0 @@
-#line 1 "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\.vscode\\arduino.json"
-{
-    "board": "arduino:avr:uno",
-    "port": "COM3",
-    "sketch": "mp3_busy_pin.ino",
-    "output": "build"
-}
