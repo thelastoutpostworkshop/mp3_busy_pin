@@ -1,9 +1,10 @@
 #include "DFRobotDFPlayerMini.h"
 
-void setup(void) {
-
+void setup(void)
+{
+    Serial.begin(9600);
 }
 
-void loop(void) {
-    
+void loop(void)
+{
 }
