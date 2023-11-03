@@ -4,12 +4,15 @@
 #define RX_PIN 10
 #define TX_PIN 11
 
-DFRobotDFPlayerMini MP3;
+DFRobotDFPlayerMini mp3;
 SoftwareSerial *softwareSerialMP3;
 
 void setup(void)
 {
     Serial.begin(9600);
+    initMP3();
+    mp3.volume(25);
+    mp3.play(1);
 }
 
 void loop(void)
@@ -23,7 +26,7 @@ void initMP3(void)
     softwareSerialMP3->begin(9600);
     Serial.println(F("Initializing MP3Player ..."));
 
-    if (!MP3.begin(*softwareSerialMP3, true, false))
+    if (!mp3.begin(*softwareSerialMP3, true, false))
     {
         Serial.println(F("Unable to begin:"));
         Serial.println(F("1.Please recheck the connection!"));
