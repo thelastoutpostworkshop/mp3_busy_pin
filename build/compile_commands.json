@@ -23,12 +23,13 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
    "-IC:\\Users\\Charles\\Documents\\Arduino\\libraries\\DFRobotDFPlayerMini",
-   "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp",
+   "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp",
    "-o",
-   "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp.o"
+   "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp.o"
   ],
-  "file": "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp"
+  "file": "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\sketch\\mp3_busy_pin.ino.cpp"
  },
  {
   "directory": "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin",
@@ -54,10 +55,43 @@
    "-DARDUINO_ARCH_AVR",
    "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
+   "-IC:\\Users\\Charles\\Documents\\Arduino\\libraries\\DFRobotDFPlayerMini",
+   "C:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+   "-o",
+   "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.o"
+  ],
+  "file": "C:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp"
+ },
+ {
+  "directory": "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin",
+  "arguments": [
+   "C:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "-IC:\\Users\\Charles\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
    "-IC:\\Users\\Charles\\Documents\\Arduino\\libraries\\DFRobotDFPlayerMini",
    "C:\\Users\\Charles\\Documents\\Arduino\\libraries\\DFRobotDFPlayerMini\\DFRobotDFPlayerMini.cpp",
    "-o",
-   "c:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\libraries\\DFRobotDFPlayerMini\\DFRobotDFPlayerMini.cpp.o"
+   "C:\\Users\\Charles\\Desktop\\Public Repo\\mp3_busy_pin\\build\\libraries\\DFRobotDFPlayerMini\\DFRobotDFPlayerMini.cpp.o"
   ],
   "file": "C:\\Users\\Charles\\Documents\\Arduino\\libraries\\DFRobotDFPlayerMini\\DFRobotDFPlayerMini.cpp"
  }

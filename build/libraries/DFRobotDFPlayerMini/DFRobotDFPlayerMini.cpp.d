@@ -1,4 +1,4 @@
-c:\Users\Charles\Desktop\Public\ Repo\mp3_busy_pin\build\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp.o: \
+C:\Users\Charles\Desktop\Public\ Repo\mp3_busy_pin\build\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp.o: \
  C:\Users\Charles\Documents\Arduino\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp \
  C:\Users\Charles\Documents\Arduino\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.h \
  C:\Users\Charles\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
