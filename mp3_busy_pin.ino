@@ -15,7 +15,7 @@ void setup(void)
     Serial.begin(9600);
     initMP3();
     mp3.volume(25);
-    mp3.play(1);
+    mp3.play(5);
     while (readBusyPin() == HIGH)
     {
         /* wait for play sound to start */
