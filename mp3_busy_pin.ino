@@ -10,22 +10,42 @@ SoftwareSerial *softwareSerialMP3;
 
 void setup(void)
 {
+    pinMode(LED_BUILTIN, OUTPUT);
+
     Serial.begin(9600);
     initMP3();
     mp3.volume(25);
     mp3.play(1);
+    while (readBusyPin() == HIGH)
+    {
+        /* wait for play sound to start */
+    }
+    Serial.println("Playing sound...");
+    while (readBusyPin() == LOW)
+    {
+        digitalWrite(LED_BUILTIN,HIGH);
+        delay(200);
+        digitalWrite(LED_BUILTIN,LOW);
+        delay(200);
+    }
+    Serial.println("Sound finished playing.");
 }
 
 void loop(void)
 {
+}
+
+int readBusyPin(void)
+{
     int b = digitalRead(BUSY_PIN);
     Serial.print("Busy pin = ");
     Serial.println(b);
+    return b;
 }
 
 void initMP3(void)
 {
-    pinMode(BUSY_PIN,INPUT);
+    pinMode(BUSY_PIN, INPUT);
     softwareSerialMP3 = new SoftwareSerial(RX_PIN, TX_PIN);
 
     softwareSerialMP3->begin(9600);
