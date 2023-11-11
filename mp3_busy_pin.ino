@@ -10,10 +10,10 @@ DFRobotDFPlayerMini mp3;
 SoftwareSerial *softwareSerialMP3;
 
 // Neopixels
-#define PIXELSPIN 7
-#define PIXELSCOUNT 14
+#define PIXELS_PIN 7
+#define PIXELS_COUNT 14
 
-Adafruit_NeoPixel pixels(PIXELSCOUNT, PIXELSPIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels(PIXELS_COUNT, PIXELS_PIN, NEO_GRB + NEO_KHZ800);
 #define COLOR_CYAN pixels.Color(0, 255, 255)
 
 void setup(void)
@@ -61,7 +61,7 @@ void initPixels(void)
 
 void showPixelsRandomLevel(void)
 {
-    int level = random(PIXELSCOUNT);
+    int level = random(PIXELS_COUNT);
     pixels.clear();
     pixels.show();
     for (int i = 0; i < level; i++)
